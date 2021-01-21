@@ -2,6 +2,7 @@ import React from 'react';
 import {Navbar} from './components/Navbar';
 import {GlobalStyle} from "./globalStyle";
 import {Hero} from "./components/Hero";
+import {SliderData} from "./data/SliderData";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         <>
             <GlobalStyle/>
             <Navbar/>
-            <Hero/>
+            <Hero slides={SliderData}/>
         </>
     );
 }

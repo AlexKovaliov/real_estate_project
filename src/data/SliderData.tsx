@@ -3,8 +3,23 @@ import ImageTwo from '../images/house-2.jpg'
 import ImageThree from '../images/house-3.jpg'
 import ImageFour from '../images/house-4.jpg'
 
+export type SliderDataObjectType = {
+    title: string,
+    price: string,
+    path: string,
+    label: string,
+    image: string,
+    alt: string,
+}
 
-export const SliderData = [
+export type SliderDataType = [
+    SliderDataObjectType,
+    SliderDataObjectType,
+    SliderDataObjectType,
+    SliderDataObjectType
+]
+
+export const SliderData: SliderDataType = [
     {
         title: 'Luxury Villa in Bali, Indonesia',
         price: '$4,280,000',
@@ -39,7 +54,7 @@ export const SliderData = [
     },
 ];
 
-export const SliderDataTwo = [
+/*export const SliderDataTwo = [
     {
         title: 'House in Las Vegas, Nevada',
         price: '$8,980,000',
@@ -72,4 +87,4 @@ export const SliderDataTwo = [
         image: ImageEight,
         alt: 'House'
     },
-];
+];*/
