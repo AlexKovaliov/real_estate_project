@@ -137,7 +137,7 @@ export const Hero = ({slides}) => {
             setCurrent(current => (current === length - 1 ? 0 : current + 1))
         }
 
-        timeout.current = setTimeout(nextSlide, 1000)
+        timeout.current = setTimeout(nextSlide, 60000)
 
         return function () {
             if (timeout.current) {

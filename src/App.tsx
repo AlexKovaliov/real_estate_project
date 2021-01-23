@@ -7,13 +7,18 @@ import {Dropdown} from './components/Dropdown';
 
 
 function App() {
+    const [isOpen, setIsOpen] = useState<boolean>(false)
 
+    const toggle = () => {
+        setIsOpen(!isOpen)
+    }
 
     return (
         <>
             <GlobalStyle/>
-            <Navbar/>
-            <Dropdown/>
+            <Navbar toggle={toggle}/>
+            <Dropdown isOpen={isOpen}
+                      toggle={toggle}/>
             <Hero slides={SliderData}/>
         </>
     );
