@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {GlobalStyle} from "./globalStyle";
 import {SliderData} from "./data/SliderData";
 import {Navbar} from './components/Navbar';
@@ -7,6 +7,8 @@ import {Dropdown} from './components/Dropdown';
 
 
 function App() {
+
+
     return (
         <>
             <GlobalStyle/>
