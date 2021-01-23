@@ -68,7 +68,7 @@ const HeroContent = styled.div`
   position: relative;
   z-index: 10;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   max-width: 1600px;
   width: calc(100% - 100px);
   color: #fff;
@@ -137,7 +137,7 @@ export const Hero = ({slides}) => {
             setCurrent(current => (current === length - 1 ? 0 : current + 1))
         }
 
-        timeout.current = setTimeout(nextSlide, 3000)
+        timeout.current = setTimeout(nextSlide, 1000)
 
         return function () {
             if (timeout.current) {
@@ -147,10 +147,18 @@ export const Hero = ({slides}) => {
     }, [current, length])
 
     const nextSlide = () => {
+        if (timeout.current) {
+            clearTimeout(timeout.current)
+        }
+
         setCurrent(current === length - 1 ? 0 : current + 1)
     }
 
     const prevSlide = () => {
+        if (timeout.current) {
+            clearTimeout(timeout.current)
+        }
+
         setCurrent(current === 0 ? length - 1 : current - 1)
     }
 
