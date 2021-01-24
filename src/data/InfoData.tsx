@@ -2,17 +2,7 @@ import ImageOne from '../images/interior-1.jpg'
 import ImageTwo from '../images/house-2.jpg'
 
 
-type InfoDataType = {
-    heading: string
-    paragraphOne: string
-    paragraphTwo: string
-    buttonLabel: string
-    image: string
-    reverse: boolean
-    delay: number
-}
-
-export const InfoData: InfoDataType = {
+export const InfoData = {
     heading: 'Explore our beautiful homes',
     paragraphOne: "Lorem ipsum dolor sit amet, " +
         "consectetur adipisicing elit. Corporis dolore esse illo ipsa molestias " +
@@ -27,7 +17,7 @@ export const InfoData: InfoDataType = {
     delay: 100
 }
 
-export const InfoDataTwo: InfoDataType = {
+export const InfoDataTwo = {
     heading: 'Modern Desighs',
     paragraphOne: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium, dolor dolore omnis quis" +
         "tenetur? Adipisci ea molestias non pariatur. A atque dolore id neque placeat possimus quidem quos sequi.",
