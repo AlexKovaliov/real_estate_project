@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/real_estate_project/static/js/main.a9ebd848.chunk.js",
+    "main.js.map": "/real_estate_project/static/js/main.a9ebd848.chunk.js.map",
+    "runtime-main.js": "/real_estate_project/static/js/runtime-main.4e5f7ac4.js",
+    "runtime-main.js.map": "/real_estate_project/static/js/runtime-main.4e5f7ac4.js.map",
+    "static/js/2.9ecc7d1f.chunk.js": "/real_estate_project/static/js/2.9ecc7d1f.chunk.js",
+    "static/js/2.9ecc7d1f.chunk.js.map": "/real_estate_project/static/js/2.9ecc7d1f.chunk.js.map",
+    "static/js/3.acae5c79.chunk.js": "/real_estate_project/static/js/3.acae5c79.chunk.js",
+    "static/js/3.acae5c79.chunk.js.map": "/real_estate_project/static/js/3.acae5c79.chunk.js.map",
+    "index.html": "/real_estate_project/index.html",
+    "static/js/2.9ecc7d1f.chunk.js.LICENSE.txt": "/real_estate_project/static/js/2.9ecc7d1f.chunk.js.LICENSE.txt",
+    "static/media/bars.9a7b6f11.svg": "/real_estate_project/static/media/bars.9a7b6f11.svg",
+    "static/media/house-1.563358c5.jpg": "/real_estate_project/static/media/house-1.563358c5.jpg",
+    "static/media/house-10.86de9df2.jpg": "/real_estate_project/static/media/house-10.86de9df2.jpg",
+    "static/media/house-2.f6c91a12.jpg": "/real_estate_project/static/media/house-2.f6c91a12.jpg",
+    "static/media/house-3.2057396b.jpg": "/real_estate_project/static/media/house-3.2057396b.jpg",
+    "static/media/house-4.a18708fb.jpg": "/real_estate_project/static/media/house-4.a18708fb.jpg",
+    "static/media/house-5.c4817440.jpg": "/real_estate_project/static/media/house-5.c4817440.jpg",
+    "static/media/house-6.59a5c92c.jpg": "/real_estate_project/static/media/house-6.59a5c92c.jpg",
+    "static/media/house-7.70426bbb.jpg": "/real_estate_project/static/media/house-7.70426bbb.jpg",
+    "static/media/house-8.6cac7b47.jpg": "/real_estate_project/static/media/house-8.6cac7b47.jpg",
+    "static/media/house-9.369e4b53.jpg": "/real_estate_project/static/media/house-9.369e4b53.jpg",
+    "static/media/interior-1.0cb709a6.jpg": "/real_estate_project/static/media/interior-1.0cb709a6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e5f7ac4.js",
+    "static/js/2.9ecc7d1f.chunk.js",
+    "static/js/main.a9ebd848.chunk.js"
+  ]
+}
