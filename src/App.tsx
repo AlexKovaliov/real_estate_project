@@ -4,6 +4,7 @@ import {SliderData} from "./data/SliderData";
 import {Navbar} from './components/Navbar';
 import {Hero} from "./components/Hero";
 import {Dropdown} from './components/Dropdown';
+import {InfoSection} from "./components/InfoSection";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Dropdown isOpen={isOpen}
                       toggle={toggle}/>
             <Hero slides={SliderData}/>
+            <InfoSection/>
         </>
     );
 }
